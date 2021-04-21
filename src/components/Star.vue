@@ -1,7 +1,7 @@
 <template>
   <div class='starMain'>
     <transition name="star">
-      <div class='star' v-if='star' v-bind:style='{ top: `${Math.floor(Math.random()*100)}%`, color: `${color[Math.floor(Math.random()*color.length+1)]}` }'>
+      <div class='star' v-bind:style='{ top: `${Math.floor(Math.random()*100)}%`, color: `${color[Math.floor(Math.random()*color.length+1)]}` }'>
         <h1 class='starSpan'>★</h1>
       </div>
     </transition>
@@ -27,9 +27,9 @@ export default {
     }
   },
   mounted(){
-    setInterval(()=>{
+    //setInterval(()=>{
       //this.star = !this.star
-    },2000)
+    //},2000)
   }
 }
 </script>
@@ -42,6 +42,7 @@ export default {
   height: 100%;
   width:100%;
   pointer-events: none;
+
 }
 
 @keyframes rotate {
@@ -69,7 +70,6 @@ export default {
   position: absolute;
   width:100%;
   left:0%;
-  opacity : 50%;
   animation: move 10s infinite linear;
 
 }
@@ -79,6 +79,7 @@ export default {
   height:100px;
   width:100px;
   size:100px;
+  opacity : 0.5;
 }
 .star-enter-active {
   transition: all 0s ;

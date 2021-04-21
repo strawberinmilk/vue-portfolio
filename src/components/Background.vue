@@ -1,6 +1,8 @@
 <template>
   <div class='backgroundMain'>
-    <Star v-for='i of 100' v-bind:key='i' v-show='i<count'/>
+    <div v-for='i of 100' v-bind:key='i'>
+    <Star  v-if='i<count' />
+    </div>
 
   </div>
 </template>
