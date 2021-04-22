@@ -138,7 +138,6 @@ export default {
   background: rgb(206, 255, 128, 0.5);
   box-shadow: 0px 0px 0px 5px #d6ebff;
   border: dashed 2px white;
-  
 }
 .inline{
   display: inline-block;

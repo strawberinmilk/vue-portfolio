@@ -1,7 +1,6 @@
 <template>
   <Background />
 
-
   <transition name="slide-fade">
   <Top v-show='nowContent==="top"' />
   </transition>
@@ -11,9 +10,9 @@
   <transition name="slide-fade">
   <About v-show='nowContent==="about"' />
   </transition>
+  
 
   <SelectArea v-on:changePage="changePage($event)"/>
-
 
 </template>
 
@@ -23,7 +22,6 @@ import Portfolio from './components/Portfolio.vue'
 import About from './components/About.vue'
 
 import SelectArea from './components/SelectArea.vue'
-
 import Background from './components/Background.vue'
 
 export default {
@@ -45,8 +43,8 @@ export default {
       if(this.nowContent === val) return;
       this.nowContent = val
     },
+  },
 
-  }
 }
 </script>
 
