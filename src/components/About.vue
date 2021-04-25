@@ -91,8 +91,8 @@ export default {
           きらい: [
             'ubuntu(GUI)',
             'powerShell',
-            'cmd',
-            'エビリファイ',
+            'mac',
+            '変な電圧のACアダプタ',
             'コンパイル',
             'ネジの多いノートPC'
           ],
