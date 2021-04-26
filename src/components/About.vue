@@ -68,7 +68,7 @@ export default {
             'ESP32',
           ],
           しかく: [
-            'now studing...'
+            'now studying...'
           ]
         },
         自己紹介:{
