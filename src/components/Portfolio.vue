@@ -54,16 +54,6 @@ export default {
           text:`電子工作はネットで見つけた面白そうな回路を組んで見る程度のことしか出来ませんが今までで一番面白かったものを紹介します。
           誘導電流を使用し、回路的に接続されていないLEDを点灯させる回路です。`,
         },
-        {
-          title:'title4',
-          img: require('../assets/logo.png'),
-          text:'',
-        },
-        {
-          title:'title5',
-          img: require('../assets/logo.png'),
-          text:'',
-        },
       ]
     }
   }
