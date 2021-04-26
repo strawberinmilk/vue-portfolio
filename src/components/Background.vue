@@ -9,7 +9,7 @@
 
 <script>
 
-import Star from './Star.vue'
+import Star from './BackgroundStar.vue'
 
 export default {
   name: 'Background',

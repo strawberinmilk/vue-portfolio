@@ -26,11 +26,6 @@ export default {
       ]
     }
   },
-  mounted(){
-    //setInterval(()=>{
-      //this.star = !this.star
-    //},2000)
-  }
 }
 </script>
 

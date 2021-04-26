@@ -2,13 +2,13 @@
   <Background />
 
   <transition name="slide-fade">
-  <Top v-show='nowContent==="top"' />
+  <Top v-if='nowContent==="top"' />
   </transition>
   <transition name="slide-fade">
-  <Portfolio v-show='nowContent==="portfolio"' />
+  <Portfolio v-if='nowContent==="portfolio"' />
   </transition>
   <transition name="slide-fade">
-  <About v-show='nowContent==="about"' />
+  <About v-if='nowContent==="about"' />
   </transition>
   
 
