@@ -52,14 +52,14 @@ export default {
           仕事でさわった: [
             'Node.js',
             'TypeScript',
+            'Vue.js',
             'arduino言語',
-            '電子工作',
           ],
           ちょっとできる: [
             'HTML',
             'css',
             'jquery',
-            'vue',
+            '電子工作',
           ],
           はーどうぇあ: [
             'ThinkPad',
@@ -68,7 +68,8 @@ export default {
             'ESP32',
           ],
           しかく: [
-            'now studying...'
+            '第二種電気工事士',
+            '認定電気工事従事者'
           ]
         },
         自己紹介:{
@@ -78,7 +79,7 @@ export default {
             'シャンプー:PANTENE',
             '出身:千葉県北西部',
             '在住:東京都23区内',
-            'にゃーん'
+            '枠が一つ余りました'
           ],
           すき:[
             'ubuntu(開発環境)',
@@ -86,7 +87,7 @@ export default {
             'Visual Studio Code',
             'チーズケーキ',
             '可愛いお洋服',
-            'きんいろモザイク'
+            'ぼっちざろっく'
           ],
           きらい: [
             'ubuntu(GUI)',
@@ -100,7 +101,7 @@ export default {
       },
       link:{
         twitter: ['https://twitter.com/strawbeRinMilk'],
-        github: ['https://github.com/6terabyte'],
+        github: ['https://github.com/strawberinmilk'],
         amazon: ['https://www.amazon.co.jp/hz/wishlist/ls/9A75OFYW2EJI?ref_=wl_share'],
       }
     }
